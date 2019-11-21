@@ -1,0 +1,463 @@
+#title
+{
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 5px
+}
+
+#motto
+{
+    font-family: 'Mistral';
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.header{
+    padding: 30px;
+    background: #006496;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+
+  .tablink:hover, .tablink:focus {
+    background-color: #777;
+  }
+
+  .articles{
+    background-color: #e6e6e6;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .title{
+    color: rgb(68,164,223);
+  }
+
+  .details{
+    color: rgb(68,164,223);
+    font-size: 16px;
+}
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left:40%;
+    background-color: #f1f1f1;
+    width:20%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    }
+  
+  .show {
+    display: block;
+  }
+
+  .img{
+    width: 90%;
+    height: 60%;
+  }
+
+  .img-map{
+    width: 100%;
+    height: 60%;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5%;
+  }
+
+  .column-2 {
+    float: left;
+    width: 60%;
+    padding: 5%;
+    padding-right: 0;
+  }
+
+  .column-3 {
+    float: left;
+    width: 40%;
+    padding: 5%;
+  }
+
+  .row{
+    background-color: white;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .p{
+    text-align: justify;
+    margin-top: 40px;
+  }
+
+  .welcome{
+    text-align: right;
+    color: white;
+    margin-bottom: -10px;
+  }
+
+  .logo{
+    display:block;
+    margin: auto;
+    width:15%;
+    height:20%;
+  }
+
+  .logo-2{
+    width: 45%;
+    height: 35%;
+    float: right;
+  }
+
+  .register{
+    margin:auto;
+    text-align: center;
+    background: #006496;
+    padding:5%;
+    color:white;
+    width: 50%;
+  }
+
+  .register-input{
+    color:black;
+    width: 50%;
+  }
+
+  .link{
+    color: #006496;
+    font-size: 16px;
+}
+
+.column-acc {
+  float: left;
+  width: 70%;
+  padding: 5%;
+  padding-right: 0;
+  border-left: 2px solid black;
+}
+
+.column-acc2 {
+  float: left;
+  width: 30%;
+  padding: 5%;
+  text-align: center;
+
+}
+
+.post-article{
+  margin:auto;
+  text-align: left;
+  background: #006496;
+  padding:10%;
+  color:white;
+}
+
+.article-input{
+  width:100%;
+  height:5%;
+  color:black;
+}
+
+.article-input-details{
+  width:100%;
+  height:30%;
+  color:black;
+}
+
+.posts{
+  background-color: white;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.dropdown-content-home {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width:20%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content-home a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content-home a:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  }
+
+  .dropdown-content-submission {
+    display: none;
+    position: absolute;
+    right:0;
+    background-color: #f1f1f1;
+    width:25%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-submission a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-submission a:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    }
+
+ #home{
+    background-color: #e6e6e6;
+    float: left;
+    padding-left: 10%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width:70%;
+  }
+
+  #date{
+    background-color: white;
+    float: left;
+    padding-left:3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top:8%;
+    width:20%;
+    }
+
+    /* body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: absolute;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.posts{
+  background-color:#d9d9d9;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#comment{
+
+  width: 100%;
+}
+
+.comment-box {
+
+  width: auto;
+  padding: 20px;
+  margin-bottom: 4px;
+  background-color:#fff;
+  border-radius: 4px;
+
+}
+
+.comment-box p {
+
+  font-family:arial;
+  font-size:14px;
+  line-height: 16px;
+  color: #282828;
+  font-weight: 100;;
+ 
+ } 
+
+ #message {
+
+  width: 100%;
+
+}
+
+hr{
+
+  border: 1px solid grey;
+ 
+}
+
+@-webkit-keyframes example {
+from {top:-100px;opacity: 0;}
+to {top:0px;opacity:1;}
+}
+
+/* Add animation (Standard syntax) */
+@keyframes example {
+from {top:-100px;opacity: 0;}
+to {top:0px;opacity:1;}
+}
+
+/* The modal's background */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Display the modal when targeted */
+.modal:target {
+  display: table;
+  position: absolute;
+}
+
+/* The modal box */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* The modal's content */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-color: #f3f3f3;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* Add animation */
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+/* The button used to close the modal */
+.closebtn {
+  text-decoration: none;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.closebtn:hover,
+.closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+header {
+  background-color: #5cb85c;
+  font-size: 25px;
+  color: white;
+}
+
+footer {
+  background-color: #5cb85c;
+  font-size: 20px;
+  color: white;
+} 
